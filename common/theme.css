@@ -1,7 +1,9 @@
 :root {
-  --color-primary: #369;
-  --color-secondary: #036;
+  --color-primary: #036;
+  --color-secondary: #369;
+  --color-body: #000;
   --color-light: #fc6;
+  --color-white: #fff;
   --color-background: #ececea;
 
   --font-primary: "Montserrat", sans-serif;
@@ -9,4 +11,25 @@
 
 html {
   font-family: var(--font-primary);
+}
+
+h1 {
+  color: var(--color-primary);
+}
+
+h2 {
+  color: var(--color-primary);
+}
+
+h3 {
+  color: var(--color-secondary);
+}
+
+h4 {
+  color: var(--color-body);
+}
+
+a {
+  background-color: var(--color-primary);
+  color: var(--color-white);
 }
