@@ -30,6 +30,6 @@ h4 {
 }
 
 a {
-  background-color: var(--color-primary);
-  color: var(--color-white);
+  color: var(--color-primary);
+  text-decoration: none;
 }
