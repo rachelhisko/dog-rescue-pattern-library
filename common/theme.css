@@ -1,10 +1,8 @@
 :root {
   --color-primary: #036;
   --color-secondary: #fc6;
-  --color-body: #343434;
+  --color-neutral: #343434;
   --color-white: #fff;
-  --color-background: #ececea;
-  --border-radius: 4px;
 
   --font-primary: "Montserrat", sans-serif;
 }
@@ -54,10 +52,8 @@ dl {
 }
 
 a {
-  color: var(--color-white);
+  color: var(--color-primary);
   text-decoration: none;
-  background-color: var(--color-primary);
-  border-radius: var(--border-radius);
 }
 
 strong {
@@ -65,5 +61,9 @@ strong {
 }
 
 b {
+  color: var(--color-primary);
+}
+
+blockquote {
   color: var(--color-primary);
 }
