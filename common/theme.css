@@ -1,10 +1,10 @@
 :root {
   --color-primary: #036;
-  --color-secondary: #369;
-  --color-body: #000;
-  --color-light: #fc6;
+  --color-secondary: #fc6;
+  --color-body: #343434;
   --color-white: #fff;
   --color-background: #ececea;
+  --border-radius: 4px;
 
   --font-primary: "Montserrat", sans-serif;
 }
@@ -13,23 +13,45 @@ html {
   font-family: var(--font-primary);
 }
 
-h1 {
-  color: var(--color-primary);
-}
-
 h2 {
   color: var(--color-primary);
 }
 
 h3 {
-  color: var(--color-secondary);
+  color: var(--color-primary);
 }
 
 h4 {
   color: var(--color-body);
 }
 
+ul {
+  color: var(--color-body);
+}
+
+ol {
+  color: var(--color-body);
+}
+
+dt {
+  color: var(--color-body);
+}
+
+dl {
+  color: var(--color-body);
+}
+
 a {
-  color: var(--color-primary);
+  color: var(--color-white);
   text-decoration: none;
+  background-color: var(--color-primary);
+  border-radius: var(--border-radius);
+}
+
+strong {
+  color: var(--color-primary);
+}
+
+b {
+  color: var(--color-primary);
 }
