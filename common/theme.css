@@ -13,15 +13,27 @@ html {
   font-family: var(--font-primary);
 }
 
+h1 {
+  color: var(--color-primary);
+}
+
 h2 {
   color: var(--color-primary);
 }
 
 h3 {
-  color: var(--color-primary);
+  color: var(--color-body);
 }
 
 h4 {
+  color: var(--color-body);
+}
+
+h5 {
+  color: var(--color-body);
+}
+
+h6 {
   color: var(--color-body);
 }
 
