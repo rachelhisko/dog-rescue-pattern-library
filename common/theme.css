@@ -3,12 +3,14 @@
   --color-secondary: #fc6;
   --color-neutral: #343434;
   --color-white: #fff;
+  --color-background: #ECECEA;
 
   --font-primary: "Raleway", sans-serif;
 }
 
 html {
   font-family: var(--font-primary);
+  background-color: var(--color-background)
 }
 
 h1 {
