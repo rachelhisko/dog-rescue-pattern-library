@@ -4,7 +4,7 @@
   --color-neutral: #343434;
   --color-white: #fff;
 
-  --font-primary: "Montserrat", sans-serif;
+  --font-primary: "Raleway", sans-serif;
 }
 
 html {
@@ -75,4 +75,8 @@ blockquote {
 
 mark {
   background-color: var(--color-secondary);
+}
+
+.color-primary {
+  color: var(--color-primary);
 }

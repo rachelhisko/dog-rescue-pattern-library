@@ -1,9 +1,9 @@
 ---
 name: "Birch Haven"
-fontUrl: "https://fontsgoogleapis.com/css?family=Montserrat:400,400i,500,600,800"
+fontUrl: "https://fonts.googleapis.com/css?family=Raleway:400,400i,600,700"
 fonts:
   primary: |
-    The primary typeface represents an bold font that was inspired by signages found in historical neighborhoods. Montserrat will show openness and stability that Birch Haven offers.
+    The primary typeface is known as Raleway. This font is a beautiful, light, open typeface that will add a gentle touch to the website as a whole. 
 
     Use the primary typeface for all type within this website.  
 
