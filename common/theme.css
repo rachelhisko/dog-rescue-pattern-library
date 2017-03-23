@@ -4,6 +4,7 @@
   --color-neutral: #343434;
   --color-white: #fff;
   --color-background: #ececea;
+  --color-hover:#4c70ac;
 
   --font-primary: "Raleway", sans-serif;
 }
@@ -59,7 +60,7 @@ a {
 }
 
 a:hover {
-  color: var(--color-secondary);
+  color: var(--color-hover);
   text-decoration: none;
 }
 

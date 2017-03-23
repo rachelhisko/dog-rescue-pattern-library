@@ -5,3 +5,11 @@
 .card .icon {
   color: var(--color-secondary)
 }
+
+.card p {
+  letter-spacing: .03em;
+}
+
+.card li {
+  letter-spacing: .04em;
+}

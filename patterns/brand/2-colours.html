@@ -4,6 +4,9 @@
   <meta charset="utf-8">
   <title>Brand</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+    html { color: rgb(var(--color-patternbot-interface), var(--color-patternbot-interface), var(--color-patternbot-interface)); }
+  </style>
   <link href="modulifier.min.css" rel="stylesheet">
   <link href="gridifier.min.css" rel="stylesheet">
   <link href="typografier.min.css" rel="stylesheet">
@@ -11,11 +14,11 @@
   <link href="common.min.css" rel="stylesheet">
   <link href="brand.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,700" rel="stylesheet">
 </head>
 <body>
 
-  <div class="patternbot-font-primary">
+  <div class="patternbot-font-primary text-left">
 
     <section>
       <h2 class="patternbot-color-body giga push-1-4">Primary colours</h2>
@@ -31,13 +34,13 @@
         </div>
       </div>
 
-      <ul class="patterbot-color-swatch-labels patternbot-color-body list-group-inline milli pad-t-1-2 push-0">
+      <ul class="patterbot-color-swatch-labels patternbot-color-body patternbot-list-group list-group-inline milli pad-t-1-2 push-0">
           <li class="push-r-1-2">
             <div class="push-1-2">
               <i class="icon i-24" style="background-color:var(--color-primary);">&nbsp;</i>
               <span class="icon-label">Primary</span>
             </div>
-            <ul class="patternbot-code-details patternbot-code-details-under list-group micro push-0">
+            <ul class="patternbot-code-details patternbot-code-details-under patternbot-list-group list-group micro push-0">
               <li class="push-1-8"><code>var(--color-primary)</code></li>
               <li class="push-1-8"><code>#036</code></li>
               <li><code>rgba(0, 51, 102, 1)</code></li>
@@ -62,13 +65,13 @@
         </div>
       </div>
 
-      <ul class="patterbot-color-swatch-labels patternbot-color-body list-group-inline milli pad-t-1-2 push-0">
+      <ul class="patterbot-color-swatch-labels patternbot-color-body patternbot-list-group list-group-inline milli pad-t-1-2 push-0">
           <li class="push-r-1-2">
             <div class="push-1-2">
               <i class="icon i-24" style="background-color:var(--color-secondary);">&nbsp;</i>
               <span class="icon-label">Secondary</span>
             </div>
-            <ul class="patternbot-code-details patternbot-code-details-under list-group micro push-0">
+            <ul class="patternbot-code-details patternbot-code-details-under patternbot-list-group list-group micro push-0">
               <li class="push-1-8"><code>var(--color-secondary)</code></li>
               <li class="push-1-8"><code>#fc6</code></li>
               <li><code>rgba(255, 204, 102, 1)</code></li>
@@ -81,14 +84,14 @@
       <hr class="patternbot-hr">
 
       <h2 class="patternbot-color-body giga ">Accent colours</h2>
-      <ul class="patterbot-color-swatch-labels patternbot-color-body list-group-inline milli push-0">
+      <ul class="patterbot-color-swatch-labels patternbot-color-body patternbot-list-group list-group-inline milli push-0">
           <li class="push-r-1-2 push">
             <div class="patternbot-color-swatches patternbot-color-swatches-accent push-1-2" style="background-color:var(--color-white);">&nbsp;</div>
             <div class="push-1-2">
               <i class="icon i-24" style="background-color:var(--color-white);">&nbsp;</i>
               <span class="icon-label">White</span>
             </div>
-            <ul class="patternbot-code-details patternbot-code-details-under list-group micro push-0">
+            <ul class="patternbot-code-details patternbot-code-details-under patternbot-list-group list-group micro push-0">
               <li class="push-1-8"><code>var(--color-white)</code></li>
               <li class="push-1-8"><code>#fff</code></li>
               <li><code>rgba(255, 255, 255, 1)</code></li>
@@ -100,10 +103,22 @@
               <i class="icon i-24" style="background-color:var(--color-background);">&nbsp;</i>
               <span class="icon-label">Background</span>
             </div>
-            <ul class="patternbot-code-details patternbot-code-details-under list-group micro push-0">
+            <ul class="patternbot-code-details patternbot-code-details-under patternbot-list-group list-group micro push-0">
               <li class="push-1-8"><code>var(--color-background)</code></li>
               <li class="push-1-8"><code>#ececea</code></li>
               <li><code>rgba(236, 236, 234, 1)</code></li>
+            </ul>
+          </li>
+          <li class="push-r-1-2 push">
+            <div class="patternbot-color-swatches patternbot-color-swatches-accent push-1-2" style="background-color:var(--color-hover);">&nbsp;</div>
+            <div class="push-1-2">
+              <i class="icon i-24" style="background-color:var(--color-hover);">&nbsp;</i>
+              <span class="icon-label">Hover</span>
+            </div>
+            <ul class="patternbot-code-details patternbot-code-details-under patternbot-list-group list-group micro push-0">
+              <li class="push-1-8"><code>var(--color-hover)</code></li>
+              <li class="push-1-8"><code>#4c70ac</code></li>
+              <li><code>rgba(76, 112, 172, 1)</code></li>
             </ul>
           </li>
       </ul>
@@ -117,14 +132,14 @@
           <p>The body copy colour will be a dark grey colour. Use for all of body copy, as well as heading 3, 4, 5, 6.</p>
 
         </div>
-      <ul class="patterbot-color-swatch-labels patternbot-color-body list-group-inline milli push-0">
+      <ul class="patterbot-color-swatch-labels patternbot-color-body patternbot-list-group list-group-inline milli push-0">
           <li class="push-r-1-2 push">
             <div class="patternbot-color-swatches patternbot-color-swatches-accent push-1-2" style="background-color:var(--color-neutral);">&nbsp;</div>
             <div class="push-1-2">
               <i class="icon i-24" style="background-color:var(--color-neutral);">&nbsp;</i>
               <span class="icon-label">Neutral</span>
             </div>
-            <ul class="patternbot-code-details patternbot-code-details-under list-group micro push-0">
+            <ul class="patternbot-code-details patternbot-code-details-under patternbot-list-group list-group micro push-0">
               <li class="push-1-8"><code>var(--color-neutral)</code></li>
               <li class="push-1-8"><code>#343434</code></li>
               <li><code>rgba(52, 52, 52, 1)</code></li>

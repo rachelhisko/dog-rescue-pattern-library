@@ -1,9 +1,10 @@
 ---
 name: "Birch Haven"
-fontUrl: "https://fonts.googleapis.com/css?family=Raleway:400,400i,600,700"
+fontUrl: "https://fonts.googleapis.com/css?family=Raleway:400,400i,700"
+
 fonts:
   primary: |
-    The primary typeface is known as Raleway. This font is a beautiful, light, open typeface that will add a gentle touch to the website as a whole. 
+    The primary typeface is known as Raleway. This font is a beautiful, light, open typeface that will add a gentle touch to the website as a whole.
 
     Use the primary typeface for all type within this website.  
 

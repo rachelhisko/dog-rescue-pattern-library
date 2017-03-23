@@ -1,0 +1,9 @@
+.accent {
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+}
+
+.primary {
+  background-color: var(--color-primary);
+  color: white;
+}
