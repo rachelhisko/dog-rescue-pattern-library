@@ -36,9 +36,9 @@
 .btn-nav {
   color: #fff;
   background-color: transparent;
-  border-width: 0px;
+  border-width: 0;
 
-transition: none
+  transition: none;
 }
 
 .btn-nav:hover {

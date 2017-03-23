@@ -3,3 +3,7 @@ a:hover {
   border-color: var(--color-white);
   color: var(--color-white);
 }
+
+h1 {
+  color: white;
+}

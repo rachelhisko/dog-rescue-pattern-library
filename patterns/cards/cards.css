@@ -1,9 +1,10 @@
 .card {
   background-color: var(--color-white);
+  align-content: flex-start;
 }
 
 .card .icon {
-  color: var(--color-secondary)
+  color: var(--color-secondary);
 }
 
 .card p {

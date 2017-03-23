@@ -2,20 +2,22 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Navigation</title>
+  <title>Header</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="../../common/modules.css" rel="stylesheet">
   <link href="../../common/grid.css" rel="stylesheet">
   <link href="../../common/type.css" rel="stylesheet">
   <link href="../../common/theme.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,700" rel="stylesheet">
+  <link href="../banner/banner.css" rel="stylesheet">
+  <link href="../nav/nav.css" rel="stylesheet">
   <link href="../buttons/buttons.css" rel="stylesheet">
-  <link href="nav.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,700" rel="stylesheet">
+  <link href="header.css" rel="stylesheet">
 </head>
 
 <body>
 
-  <header class="grid">
+  <header class="grid absolute pin-tl w-1 zindex-3">
     <div class="unit xs-1 s-1 m-1 text-center">
       <h1>Birch Haven</h1>
     </div>
@@ -35,6 +37,16 @@
       </nav>
     </div>
   </header>
+    <div class="banner">
+      <img class="img-flex" src="../../images/banner.jpg" alt="">
+      <div class="banner-content pin-center-left gutter">
+        <div class="gutter">
+          <h2 class="push-0 yotta">2017 Annual Fundrasier</h2>
+          <p class="tera">Join us and help make a difference.</p>
+          <a class="btn btn-ghost gutter-2" href="#">Join</a>
+        </div>
+      </div>
+    </div>
 
 </body>
 </html>
