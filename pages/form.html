@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Home</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="../common/modules.css" rel="stylesheet">
+  <link href="../common/grid.css" rel="stylesheet">
+  <link href="../common/type.css" rel="stylesheet">
+  <link href="../common/theme.css" rel="stylesheet">
+  <link href="../patterns/banner/banner.css" rel="stylesheet">
+  <link href="../patterns/buttons/buttons.css" rel="stylesheet">
+  <link href="../patterns/cards/cards.css" rel="stylesheet">
+  <link href="../patterns/nav/nav.css" rel="stylesheet">
+  <link href="../patterns/header/header.css" rel="stylesheet">
+  <link href="../patterns/sections/sections.css" rel="stylesheet">
+  <link href="../patterns/footer/footer.css" rel="stylesheet">
+  <link href="../patterns/forms/forms.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,600,700" rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="grid absolute pin-tl w-1 zindex-3">
+    <div class="unit xs-1 s-1 m-1 text-center">
+      <h1>Birch Haven</h1>
+    </div>
+    <div class="unit xs-1 s-1 m-1">
+      <nav class="text-center">
+        <ul class="list-group grid">
+          <li class="unit xs-1-2 s-1-2 m-1-5 pad-b-1-2"><a class="btn btn-nav" href="#">Dogs</a></li>
+          <li class="unit xs-1-2 s-1-2 m-1-5 pad-b-1-2"><a class="btn btn-nav" href="#">Applications</a></li>
+          <li class="unit unit-xs-hidden unit-s-hidden m-1-5">
+            <i class="icon i-64 push-1-2">
+              <img src="../images/logo-256.svg">
+            </i>
+          </li>
+          <li class="unit xs-1-2 s-1-2 m-1-5 pad-b-1-2"><a class="btn btn-nav" href="#">Donate</a></li>
+          <li class="unit xs-1-2 s-1-2 m-1-5 pad-b-1-2"><a class="btn btn-nav" href="#">Volunteer</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="banner">
+    <figure class="banner-image absolute pin-bl pin-br">
+    </figure>
+    <div class="banner-content gutter">
+      <div class="gutter">
+        <h2 class="push-0 yotta">2017 Annual Fundrasier</h2>
+        <p class="tera">Join us and help make a difference.</p>
+        <a class="btn btn-ghost gutter-2" href="#">Join</a>
+      </div>
+    </div>
+  </div>
+
+<body>
+
+  <h2 class="push-1-2 gutter">Application Form</h2>
+
+  <h5 class="push-1-2 gutter">1. Personal Information</h5>
+
+  <form class="grid" method="post" novalidate>
+
+    <div>
+
+      <div class="error-message error-message-highlighted push island-1-2 unit xs-1 text-center" role="alert" aria-live="assertive">
+        <h3 class="push-0">
+          <i class="icon i-32"><svg><use xlink:href="images/error.svg#error" /></svg></i>
+          <span class="icon-label">There are items that require your attention</span>
+        </h3>
+      </div>
+
+      <div class="unit xs-1 s-1 m-1-2 gutter push">
+        <label for="first-name">First Name</label>
+        <input id="first-name" required aria-describedby="first-name-error">
+        <p class="error-message milli island-1-4 push-0" id="first-name-error">
+          <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
+          <span class="icon-label">Please provide a first name</span>
+        </p>
+      </div>
+
+      <div class="unit xs-1 s-1 m-1-2 gutter push">
+        <label for="last-name">Last Name</label>
+        <input id="last-name" required aria-describedby="last-name-error">
+        <p class="error-message milli island-1-4 push-0" id="last-name-error">
+          <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
+          <span class="icon-label">Please provide a last name</span>
+        </p>
+      </div>
+
+      <div class="unit xs-1 s-1 m-1-2 gutter push">
+        <label for="phone-number">Phone Number</label>
+        <input id="phone-number" required aria-describedby="phone-number-error">
+        <p class="error-message milli island-1-4 push-0" id="phone-number-error">
+          <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
+          <span class="icon-label">Please provide a Phone Number</span>
+        </p>
+      </div>
+
+      <div class="unit xs-1 s-1 m-1-2 gutter push">
+        <label for="age">Age</label>
+        <input id="age" required aria-describedby="age-error">
+        <p class="error-message milli island-1-4 push-0" id="age-error">
+          <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
+          <span class="icon-label">Please provide your age</span>
+        </p>
+      </div>
+
+      <div class="unit xs-1 gutter push">
+        <label for="address">Address</label>
+        <input id="address" required aria-describedby="address-error">
+        <p class="error-message milli island-1-4 push-0" id="address-error">
+          <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
+          <span class="icon-label">Please provide your address</span>
+        </p>
+      </div>
+
+      <div class="unit xs-1 gutter push">
+        <label for="city">City</label>
+        <input id="city" required aria-describedby="city-error">
+        <p class="error-message milli island-1-4 push-0" id="city-error">
+          <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
+          <span class="icon-label">Please provide your City</span>
+        </p>
+      </div>
+
+      <div class="unit xs-1 gutter push">
+        <label for="email">Your email</label>
+        <input id="email" required aria-describedby="email-error">
+        <p class="error-message milli island-1-4 push-0" id="email-error">
+          <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
+          <span class="icon-label">Please provide a properly formatted email address.</span>
+        </p>
+      </div>
+
+      <div class="unit xs-1 s-1 m-1-2 gutter push">
+        <label for="occupation">Occupation</label>
+        <input id="occupation" required aria-describedby="occupation-error">
+        <p class="error-message milli island-1-4 push-0" id="occupation-error">
+          <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
+          <span class="icon-label">Please provide an occupation.</span>
+        </p>
+      </div>
+
+      <div class="unit xs-1 s-1 m-1-2 gutter push">
+        <label for="years">Number of Years</label>
+        <input id="years" required aria-describedby="years-error">
+        <p class="error-message milli island-1-4 push-0" id="years-error">
+          <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
+          <span class="icon-label">Please provide the number of year you have worked at your occupation.</span>
+        </p>
+      </div>
+    </div>
+
+    <div>
+      <h5 class="push-1-2 gutter">2. Your Family</h5>
+    </div>
+    
+    <div>
+      <div class="unit xs-1 s-1 m-1-2 gutter push">
+        <label for="children">Number of Children</label>
+        <input id="children" required aria-describedby="children-error">
+        <p class="error-message milli island-1-4 push-0" id="children-error">
+          <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
+          <span class="icon-label">Please provide the number of children you have living in your house.</span>
+        </p>
+      </div>
+
+      <div class="unit xs-1 s-1 m-1-2 gutter push">
+        <label for="allergies">Allergies within the family</label>
+        <input id="allergies" required aria-describedby="allergies-error">
+        <p class="error-message milli island-1-4 push-0" id="allergies-error">
+          <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
+          <span class="icon-label">Please provide allergies</span>
+        </p>
+      </div>
+
+      <div class="unit xs-1 gutter push">
+        <label for="describe">Describe yourself</label>
+        <textarea id="describe" required aria-describedby="describe-error"></textarea>
+        <p class="error-message milli island-1-4 push-0" id="describe-error">
+          <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
+          <span class="icon-label">Please provide a properly formatted email address</span>
+        </p>
+      </div>
+
+    </div>
+
+    <div class="unit xs-1-2 gutter push">
+      <label for="sex">Sex</label>
+      <select id="sex" required aria-describedby="sex-error">
+        <option value="">Choose a sex</option>
+        <option>Male Dog</option>
+        <option>Female Dog</option>
+        <option>No preference</option>
+      </select>
+      <p class="error-message milli island-1-4 push-0" id="sex-error">
+        <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
+        <span class="icon-label">Please select one</span>
+      </p>
+    </div>
+
+    <div class="unit xs-1 gutter push">
+      <input type="checkbox" id="loose-in-house" required aria-describedby="check-error">
+      <label for="loose-in-house">Loose in the house</label>
+      <p class="error-message milli island-1-4 push-0" id="check-error">
+        <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
+        <span class="icon-label">Please select all the apply</span>
+      </p>
+    </div>
+
+    <div class="unit xs-1 gutter push">
+      <button class="btn" type="submit">Submit Application</button>
+    </div>
+
+  </form>
+
+  <script src="https://thomasjbradley.github.io/form-validation-helper/index.js"></script>
+
+</body>
+</html>
