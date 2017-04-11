@@ -32,7 +32,7 @@
           <li class="unit xs-1-2 s-1-2 m-1-5 pad-b-1-2"><a class="btn btn-nav" href="#">Applications</a></li>
           <li class="unit unit-xs-hidden unit-s-hidden m-1-5">
             <i class="icon i-64 push-1-2">
-              <img src="../images/logo-256.svg">
+              <img src="../images/logo-256.svg" alt="">
             </i>
           </li>
           <li class="unit xs-1-2 s-1-2 m-1-5 pad-b-1-2"><a class="btn btn-nav" href="#">Donate</a></li>
@@ -147,7 +147,6 @@
           <span class="icon-label">Please provide the number of year you have worked at your occupation.</span>
         </p>
       </div>
-    </div>
 
   </fieldset>
 
@@ -181,372 +180,374 @@
         </p>
       </div>
 
-  </fieldset>
+    </fieldset>
 
-  <fieldset class="w-1">
-    <legend class=" unit xs-1 gutter giga">3. Your Home</legend>
+    <fieldset class="w-1">
+      <legend class=" unit xs-1 gutter giga">3. Your Home</legend>
 
-    <div class="unit xs-1 s-1 m-1-2 gutter push">
-      <label for="enviorment">Enviorment Type</label>
-      <select id="enviorment" required aria-describedby="enviorment-error">
-        <option value="">Choose an Enviorment</option>
-        <option>City</option>
-        <option>Suburban</option>
-        <option>Country</option>
-      </select>
-      <p class="error-message milli island-1-4 push-0" id="enviorment-error">
-        <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
-        <span class="icon-label">Please select one</span>
-      </p>
-    </div>
+      <div class="unit xs-1 s-1 m-1-2 gutter push">
+        <label for="enviorment">Enviorment Type</label>
+        <select id="enviorment" required aria-describedby="enviorment-error">
+          <option value="">Choose an Enviorment</option>
+          <option>City</option>
+          <option>Suburban</option>
+          <option>Country</option>
+        </select>
+        <p class="error-message milli island-1-4 push-0" id="enviorment-error">
+          <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
+          <span class="icon-label">Please select one</span>
+        </p>
+      </div>
 
-    <div class="unit xs-1 s-1 m-1-2 gutter push">
-      <label for="house">Houseing Type</label>
-      <input id="house" required aria-describedby="house-error">
-      <p class="error-message milli island-1-4 push-0" id="house-error">
-        <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
-        <span class="icon-label">Please provide what type of home do you own</span>
-      </p>
-    </div>
+      <div class="unit xs-1 s-1 m-1-2 gutter push">
+        <label for="house">Houseing Type</label>
+        <input id="house" required aria-describedby="house-error">
+        <p class="error-message milli island-1-4 push-0" id="house-error">
+          <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
+          <span class="icon-label">Please provide what type of home do you own</span>
+        </p>
+      </div>
 
-    <div class="unit xs-1 s-1 m-1-2 gutter push">
-      <label for="own-rent">Do you own or rent</label>
-      <input id="own-rent" required aria-describedby="own-rent-error">
-      <p class="error-message milli island-1-4 push-0" id="own-rent-error">
-        <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
-        <span class="icon-label">Please provide allergies</span>
-      </p>
-    </div>
+      <div class="unit xs-1 s-1 m-1-2 gutter push">
+        <label for="own-rent">Do you own or rent</label>
+        <input id="own-rent" required aria-describedby="own-rent-error">
+        <p class="error-message milli island-1-4 push-0" id="own-rent-error">
+          <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
+          <span class="icon-label">Please provide allergies</span>
+        </p>
+      </div>
 
-    <div class="unit xs-1 s-1 m-1-2 gutter push">
-      <label for="hours-alone">On average how many hours will the dog be home alone?</label>
-      <select id="hours-alone" required aria-describedby="hours-alone-error">
-        <option value="">Choose Number</option>
-        <option>0-2 hours</option>
-        <option>3-5 hours</option>
-        <option>6-8 hours</option>
-        <option>9 hours or more</option>
-      </select>
-      <p class="error-message milli island-1-4 push-0" id="hours-alone-error">
-        <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
-        <span class="icon-label">Please select one</span>
-      </p>
-    </div>
+      <div class="unit xs-1 s-1 m-1-2 gutter push">
+        <label for="hours-alone">On average how many hours will the dog be home alone?</label>
+        <select id="hours-alone" required aria-describedby="hours-alone-error">
+          <option value="">Choose Number</option>
+          <option>0-2 hours</option>
+          <option>3-5 hours</option>
+          <option>6-8 hours</option>
+          <option>9 hours or more</option>
+        </select>
+        <p class="error-message milli island-1-4 push-0" id="hours-alone-error">
+          <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
+          <span class="icon-label">Please select one</span>
+        </p>
+      </div>
 
-    <div class="unit xs-1 s-1 gutter pad-b-1-2">
-      <label for="day">Where will your dog stay during the <strong>day.</strong> (select all that apply)</label>
-    </div>
+      <div class="unit xs-1 s-1 gutter pad-b-1-2">
+        <label for="day">Where will your dog stay during the <strong>day.</strong> (select all that apply)</label>
+      </div>
 
-    <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
-      <input type="checkbox" id="loose-in-house1" required aria-describedby="loose-in-house1-error">
-      <label for="loose-in-house1">Loose in house</label>
-      <p class="error-message milli island-1-4 push-0" id="loose-in-house1-error">
-        <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
-        <span class="icon-label">Please select all the apply</span>
-      </p>
-    </div>
+      <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
+        <input type="checkbox" id="loose-in-house1" required aria-describedby="loose-in-house1-error">
+        <label for="loose-in-house1">Loose in house</label>
+        <p class="error-message milli island-1-4 push-0" id="loose-in-house1-error">
+          <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
+          <span class="icon-label">Please select all the apply</span>
+        </p>
+      </div>
 
-    <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
-      <input type="checkbox" id="kennel1" required aria-describedby="kennel1-error">
-      <label for="kennel1">Fenced kennel</label>
-      <p class="error-message milli island-1-4 push-0" id="kennel1-error">
-        <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
-        <span class="icon-label">Please select all the apply</span>
-      </p>
-    </div>
+      <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
+        <input type="checkbox" id="kennel1" required aria-describedby="kennel1-error">
+        <label for="kennel1">Fenced kennel</label>
+        <p class="error-message milli island-1-4 push-0" id="kennel1-error">
+          <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
+          <span class="icon-label">Please select all the apply</span>
+        </p>
+      </div>
 
-    <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
-      <input type="checkbox" id="fenced-yard1" required aria-describedby="fenced-yard1-error">
-      <label for="fenced-yard1">Fenced yard</label>
-      <p class="error-message milli island-1-4 push-0" id="fenced-yard1-error">
-        <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
-        <span class="icon-label">Please select all the apply</span>
-      </p>
-    </div>
+      <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
+        <input type="checkbox" id="fenced-yard1" required aria-describedby="fenced-yard1-error">
+        <label for="fenced-yard1">Fenced yard</label>
+        <p class="error-message milli island-1-4 push-0" id="fenced-yard1-error">
+          <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
+          <span class="icon-label">Please select all the apply</span>
+        </p>
+      </div>
 
-    <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
-      <input type="checkbox" id="garage1" required aria-describedby="garage1-error">
-      <label for="garage1">Garage</label>
-      <p class="error-message milli island-1-4 push-0" id="garage1-error">
-        <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
-        <span class="icon-label">Please select all the apply</span>
-      </p>
-    </div>
+      <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
+        <input type="checkbox" id="garage1" required aria-describedby="garage1-error">
+        <label for="garage1">Garage</label>
+        <p class="error-message milli island-1-4 push-0" id="garage1-error">
+          <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
+          <span class="icon-label">Please select all the apply</span>
+        </p>
+      </div>
 
-    <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
-      <input type="checkbox" id="loose-outside1" required aria-describedby="loose-outside1-error">
-      <label for="loose-in-house1">Loose outside</label>
-      <p class="error-message milli island-1-4 push-0" id="loose-outside1-error">
-        <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
-        <span class="icon-label">Please select all the apply</span>
-      </p>
-    </div>
+      <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
+        <input type="checkbox" id="loose-outside1" required aria-describedby="loose-outside1-error">
+        <label for="loose-in-house1">Loose outside</label>
+        <p class="error-message milli island-1-4 push-0" id="loose-outside1-error">
+          <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
+          <span class="icon-label">Please select all the apply</span>
+        </p>
+      </div>
 
-    <div class="unit xs-1 s-1 gutter pad-b-1-2">
-      <label for="night">Where will your dog stay during the <strong>night.</strong> (select all that apply)</label>
-    </div>
+      <div class="unit xs-1 s-1 gutter pad-b-1-2">
+        <label for="night">Where will your dog stay during the <strong>night.</strong> (select all that apply)</label>
+      </div>
 
-    <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
-      <input type="checkbox" id="loose-in-house" required aria-describedby="loose-in-house-error">
-      <label for="loose-in-house">Loose in house</label>
-      <p class="error-message milli island-1-4 push-0" id="check-error">
-        <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
-        <span class="icon-label">Please select all the apply</span>
-      </p>
-    </div>
+      <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
+        <input type="checkbox" id="loose-in-house" required aria-describedby="loose-in-house-error">
+        <label for="loose-in-house">Loose in house</label>
+        <p class="error-message milli island-1-4 push-0" id="check-error">
+          <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
+          <span class="icon-label">Please select all the apply</span>
+        </p>
+      </div>
 
-    <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
-      <input type="checkbox" id="kennel" required aria-describedby="kennel-error">
-      <label for="kennel">Fenced kennel</label>
-      <p class="error-message milli island-1-4 push-0" id="kennel-error">
-        <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
-        <span class="icon-label">Please select all the apply</span>
-      </p>
-    </div>
+      <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
+        <input type="checkbox" id="kennel" required aria-describedby="kennel-error">
+        <label for="kennel">Fenced kennel</label>
+        <p class="error-message milli island-1-4 push-0" id="kennel-error">
+          <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
+          <span class="icon-label">Please select all the apply</span>
+        </p>
+      </div>
 
-    <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
-      <input type="checkbox" id="fenced-yard" required aria-describedby="fenced-yard-error">
-      <label for="fenced-yard">Fenced yard</label>
-      <p class="error-message milli island-1-4 push-0" id="fenced-yard-error">
-        <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
-        <span class="icon-label">Please select all the apply</span>
-      </p>
-    </div>
+      <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
+        <input type="checkbox" id="fenced-yard" required aria-describedby="fenced-yard-error">
+        <label for="fenced-yard">Fenced yard</label>
+        <p class="error-message milli island-1-4 push-0" id="fenced-yard-error">
+          <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
+          <span class="icon-label">Please select all the apply</span>
+        </p>
+      </div>
 
-    <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
-      <input type="checkbox" id="garage" required aria-describedby="garage-error">
-      <label for="garage">Garage</label>
-      <p class="error-message milli island-1-4 push-0" id="garage-error">
-        <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
-        <span class="icon-label">Please select all the apply</span>
-      </p>
-    </div>
+      <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
+        <input type="checkbox" id="garage" required aria-describedby="garage-error">
+        <label for="garage">Garage</label>
+        <p class="error-message milli island-1-4 push-0" id="garage-error">
+          <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
+          <span class="icon-label">Please select all the apply</span>
+        </p>
+      </div>
 
-    <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
-      <input type="checkbox" id="loose-outside" required aria-describedby="loose-outside-error">
-      <label for="loose-in-house">Loose outside</label>
-      <p class="error-message milli island-1-4 push-0" id="loose-outside-error">
-        <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
-        <span class="icon-label">Please select all the apply</span>
-      </p>
-    </div>
+      <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
+        <input type="checkbox" id="loose-outside" required aria-describedby="loose-outside-error">
+        <label for="loose-in-house">Loose outside</label>
+        <p class="error-message milli island-1-4 push-0" id="loose-outside-error">
+          <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
+          <span class="icon-label">Please select all the apply</span>
+        </p>
+      </div>
 
-  </fieldset>
+    </fieldset>
 
-  <fieldset class="w-1">
-    <legend class=" unit xs-1 gutter giga">4. Dog General Information</legend>
+    <fieldset class="w-1">
+      <legend class=" unit xs-1 gutter giga">4. Dog General Information</legend>
 
-    <div class="unit xs-1 s-1 m-1-2 gutter push">
-      <label for="owned">Have you ever owned a dog?</label>
-      <input id="owned" required aria-describedby="owned-error">
-      <p class="error-message milli island-1-4 push-0" id="owned-error">
-        <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
-        <span class="icon-label">Please provide if you have ever owned a dog</span>
-      </p>
-    </div>
+      <div class="unit xs-1 s-1 m-1-2 gutter push">
+        <label for="owned">Have you ever owned a dog?</label>
+        <input id="owned" required aria-describedby="owned-error">
+        <p class="error-message milli island-1-4 push-0" id="owned-error">
+          <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
+          <span class="icon-label">Please provide if you have ever owned a dog</span>
+        </p>
+      </div>
 
-    <div class="unit xs-1 s-1 m-1-2 gutter push">
-      <label for="excersise">Hours of excersise per day for your dog?</label>
-      <select id="excersise" required aria-describedby="excersise-error">
-        <option value="">Choose Number</option>
-        <option>0-1 hours</option>
-        <option>2-3 hours</option>
-        <option>3-4 hours</option>
-        <option>5 hours or more</option>
-      </select>
-      <p class="error-message milli island-1-4 push-0" id="excersise-error">
-        <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
-        <span class="icon-label">Please select one</span>
-      </p>
-    </div>
+      <div class="unit xs-1 s-1 m-1-2 gutter push">
+        <label for="excersise">Hours of excersise per day for your dog?</label>
+        <select id="excersise" required aria-describedby="excersise-error">
+          <option value="">Choose Number</option>
+          <option>0-1 hours</option>
+          <option>2-3 hours</option>
+          <option>3-4 hours</option>
+          <option>5 hours or more</option>
+        </select>
+        <p class="error-message milli island-1-4 push-0" id="excersise-error">
+          <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
+          <span class="icon-label">Please select one</span>
+        </p>
+      </div>
 
-    <div class="unit xs-1 s-1 gutter pad-b-1-2">
-      <label for="activity">What would you enjoy doing with your dog. (select all that apply)</label>
-    </div>
+      <div class="unit xs-1 s-1 gutter pad-b-1-2">
+        <label for="activity">What would you enjoy doing with your dog. (select all that apply)</label>
+      </div>
 
-    <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
-      <input type="checkbox" id="leash" required aria-describedby="leash-error">
-      <label for="leash">On-leash walking </label>
-      <p class="error-message milli island-1-4 push-0" id="leash-error">
-        <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
-        <span class="icon-label">Please select all the apply</span>
-      </p>
-    </div>
+      <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
+        <input type="checkbox" id="leash" required aria-describedby="leash-error">
+        <label for="leash">On-leash walking </label>
+        <p class="error-message milli island-1-4 push-0" id="leash-error">
+          <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
+          <span class="icon-label">Please select all the apply</span>
+        </p>
+      </div>
 
-    <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
-      <input type="checkbox" id="jogging" required aria-describedby="jogging-error">
-      <label for="jogging">Jogging</label>
-      <p class="error-message milli island-1-4 push-0" id="jogging-error">
-        <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
-        <span class="icon-label">Please select all the apply</span>
-      </p>
-    </div>
+      <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
+        <input type="checkbox" id="jogging" required aria-describedby="jogging-error">
+        <label for="jogging">Jogging</label>
+        <p class="error-message milli island-1-4 push-0" id="jogging-error">
+          <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
+          <span class="icon-label">Please select all the apply</span>
+        </p>
+      </div>
 
-    <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
-      <input type="checkbox" id="off-leash" required aria-describedby="off-leash-error">
-      <label for="off-leash">Off-leashed walking</label>
-      <p class="error-message milli island-1-4 push-0" id="off-leash-error">
-        <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
-        <span class="icon-label">Please select all the apply</span>
-      </p>
-    </div>
+      <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
+        <input type="checkbox" id="off-leash" required aria-describedby="off-leash-error">
+        <label for="off-leash">Off-leashed walking</label>
+        <p class="error-message milli island-1-4 push-0" id="off-leash-error">
+          <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
+          <span class="icon-label">Please select all the apply</span>
+        </p>
+      </div>
 
-    <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
-      <input type="checkbox" id="bike" required aria-describedby="bike-error">
-      <label for="bike">Cycling</label>
-      <p class="error-message milli island-1-4 push-0" id="bike-error">
-        <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
-        <span class="icon-label">Please select all the apply</span>
-      </p>
-    </div>
+      <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
+        <input type="checkbox" id="bike" required aria-describedby="bike-error">
+        <label for="bike">Cycling</label>
+        <p class="error-message milli island-1-4 push-0" id="bike-error">
+          <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
+          <span class="icon-label">Please select all the apply</span>
+        </p>
+      </div>
 
-    <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
-      <input type="checkbox" id="parks" required aria-describedby="parks-error">
-      <label for="parks">Off-leash parks</label>
-      <p class="error-message milli island-1-4 push-0" id="parks-error">
-        <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
-        <span class="icon-label">Please select all the apply</span>
-      </p>
-    </div>
+      <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
+        <input type="checkbox" id="parks" required aria-describedby="parks-error">
+        <label for="parks">Off-leash parks</label>
+        <p class="error-message milli island-1-4 push-0" id="parks-error">
+          <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
+          <span class="icon-label">Please select all the apply</span>
+        </p>
+      </div>
 
-    <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
-      <input type="checkbox" id="other" required aria-describedby="other-error">
-      <label for="other">Other</label>
-      <p class="error-message milli island-1-4 push-0" id="other-error">
-        <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
-        <span class="icon-label">Please select all the apply</span>
-      </p>
-    </div>
+      <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
+        <input type="checkbox" id="other" required aria-describedby="other-error">
+        <label for="other">Other</label>
+        <p class="error-message milli island-1-4 push-0" id="other-error">
+          <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
+          <span class="icon-label">Please select all the apply</span>
+        </p>
+      </div>
 
-    <div class="unit xs-1 s-1 gutter pad-b-1-2">
-      <label for="dog-type">Tell us what you're looking for in a dog</label>
-    </div>
+      <div class="unit xs-1 s-1 gutter pad-b-1-2">
+        <label for="dog-type">Tell us what you're looking for in a dog</label>
+      </div>
 
-    <div class="unit xs-1-2 gutter push">
-      <label for="sex">Sex</label>
-      <select id="sex" required aria-describedby="sex-error">
-        <option value="">Choose a sex</option>
-        <option>Male Dog</option>
-        <option>Female Dog</option>
-        <option>No preference</option>
-      </select>
-      <p class="error-message milli island-1-4 push-0" id="sex-error">
-        <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
-        <span class="icon-label">Please select one</span>
-      </p>
-    </div>
+      <div class="unit xs-1-2 gutter push">
+        <label for="sex">Sex</label>
+        <select id="sex" required aria-describedby="sex-error">
+          <option value="">Choose a sex</option>
+          <option>Male Dog</option>
+          <option>Female Dog</option>
+          <option>No preference</option>
+        </select>
+        <p class="error-message milli island-1-4 push-0" id="sex-error">
+          <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
+          <span class="icon-label">Please select one</span>
+        </p>
+      </div>
 
-    <div class="unit xs-1-2 gutter push">
-      <label for="coat">Coat</label>
-      <select id="coat" required aria-describedby="coat-error">
-        <option value="">Choose dogs coat</option>
-        <option>Short</option>
-        <option>Medium</option>
-        <option>Long</option>
-        <option>No Shedding</option>
-      </select>
-      <p class="error-message milli island-1-4 push-0" id="coat-error">
-        <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
-        <span class="icon-label">Please select one</span>
-      </p>
-    </div>
+      <div class="unit xs-1-2 gutter push">
+        <label for="coat">Coat</label>
+        <select id="coat" required aria-describedby="coat-error">
+          <option value="">Choose dogs coat</option>
+          <option>Short</option>
+          <option>Medium</option>
+          <option>Long</option>
+          <option>No Shedding</option>
+        </select>
+        <p class="error-message milli island-1-4 push-0" id="coat-error">
+          <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
+          <span class="icon-label">Please select one</span>
+        </p>
+      </div>
 
-    <div class="unit xs-1-2 gutter push">
-      <label for="dog-age">Age</label>
-      <select id="dog-age" required aria-describedby="dog-age-error">
-        <option value="">Choose dogs coat</option>
-        <option>Short</option>
-        <option>Medium</option>
-        <option>Long</option>
-        <option>No Shedding</option>
-      </select>
-      <p class="error-message milli island-1-4 push-0" id="dog-age-error">
-        <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
-        <span class="icon-label">Please select one</span>
-      </p>
-    </div>
+      <div class="unit xs-1-2 gutter push">
+        <label for="dog-age">Age</label>
+        <select id="dog-age" required aria-describedby="dog-age-error">
+          <option value="">Choose dogs coat</option>
+          <option>Short</option>
+          <option>Medium</option>
+          <option>Long</option>
+          <option>No Shedding</option>
+        </select>
+        <p class="error-message milli island-1-4 push-0" id="dog-age-error">
+          <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
+          <span class="icon-label">Please select one</span>
+        </p>
+      </div>
 
-    <div class="unit xs-1 s-1 m-1-2 gutter push">
-      <label for="breed">Dog breed preference?</label>
-      <input id="breed" required aria-describedby="breed-error">
-      <p class="error-message milli island-1-4 push-0" id="breed-error">
-        <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
-        <span class="icon-label">Please provide dog breed preference.</span>
-      </p>
-    </div>
+      <div class="unit xs-1 s-1 m-1-2 gutter push">
+        <label for="breed">Dog breed preference?</label>
+        <input id="breed" required aria-describedby="breed-error">
+        <p class="error-message milli island-1-4 push-0" id="breed-error">
+          <i class="icon i-32"><svg><use xlink:href="../../images/error.svg#error" /></svg></i>
+          <span class="icon-label">Please provide dog breed preference.</span>
+        </p>
+      </div>
 
-    <div class="unit xs-1 s-1 gutter pad-b-1-2">
-      <label for="dog-type">I would like my dog to: <strong>(optional)</strong></label>
-    </div>
+      <div class="unit xs-1 s-1 gutter pad-b-1-2">
+        <label for="dog-type">I would like my dog to: <strong>(optional)</strong></label>
+      </div>
 
-    <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
-      <input type="checkbox" id="friendly">
-      <label for="friendly">Be friendly with children</label>
-    </div>
+      <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
+        <input type="checkbox" id="friendly">
+        <label for="friendly">Be friendly with children</label>
+      </div>
 
-    <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
-      <input type="checkbox" id="friendly-dog">
-      <label for="friendly-dog">Be friendly with other dogs</label>
-    </div>
+      <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
+        <input type="checkbox" id="friendly-dog">
+        <label for="friendly-dog">Be friendly with other dogs</label>
+      </div>
 
-    <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
-      <input type="checkbox" id="friendly-cat">
-      <label for="friendly-cat">Be friendly with cats</label>
-    </div>
+      <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
+        <input type="checkbox" id="friendly-cat">
+        <label for="friendly-cat">Be friendly with cats</label>
+      </div>
 
-    <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
-      <input type="checkbox" id="friendly-me">
-      <label for="friendly-me">Be friendly with me</label>
-    </div>
+      <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
+        <input type="checkbox" id="friendly-me">
+        <label for="friendly-me">Be friendly with me</label>
+      </div>
 
-    <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
-      <input type="checkbox" id="friendly-vis">
-      <label for="friendly-vis">Be friendly with visitors</label>
-    </div>
+      <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
+        <input type="checkbox" id="friendly-vis">
+        <label for="friendly-vis">Be friendly with visitors</label>
+      </div>
 
-    <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
-      <input type="checkbox" id="groomed">
-      <label for="groomed">Enjoy being groomed</label>
-    </div>
+      <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
+        <input type="checkbox" id="groomed">
+        <label for="groomed">Enjoy being groomed</label>
+      </div>
 
-    <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
-      <input type="checkbox" id="held">
-      <label for="held">Enjoy being held</label>
-    </div>
+      <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
+        <input type="checkbox" id="held">
+        <label for="held">Enjoy being held</label>
+      </div>
 
-    <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
-      <input type="checkbox" id="calm">
-      <label for="calm">Be calm</label>
-    </div>
+      <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
+        <input type="checkbox" id="calm">
+        <label for="calm">Be calm</label>
+      </div>
 
-    <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
-      <input type="checkbox" id="playful">
-      <label for="playful">Be playful</label>
-    </div>
+      <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
+        <input type="checkbox" id="playful">
+        <label for="playful">Be playful</label>
+      </div>
 
-    <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
-      <input type="checkbox" id="quiet">
-      <label for="quiet">Be quiet</label>
-    </div>
+      <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
+        <input type="checkbox" id="quiet">
+        <label for="quiet">Be quiet</label>
+      </div>
 
-    <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
-      <input type="checkbox" id="independent">
-      <label for="independent">Be independent</label>
-    </div>
+      <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
+        <input type="checkbox" id="independent">
+        <label for="independent">Be independent</label>
+      </div>
 
-    <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
-      <input type="checkbox" id="awake">
-      <label for="awake">Rarley wakes at night</label>
-    </div>
+      <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
+        <input type="checkbox" id="awake">
+        <label for="awake">Rarley wakes at night</label>
+      </div>
 
-    <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
-      <input type="checkbox" id="aggressive">
-      <label for="aggressive">Never shows aggression</label>
-    </div>
+      <div class="unit xs-1-2 s-1-2 m-1-3 gutter push">
+        <input type="checkbox" id="aggressive">
+        <label for="aggressive">Never shows aggression</label>
+      </div>
 
-    <div class="unit xs-1 gutter push">
-      <button class="btn" type="submit">Submit Application</button>
-    </div>
+      <div class="unit xs-1 gutter push">
+        <button class="btn" type="submit">Submit Application</button>
+      </div>
+
+    </fieldset>
 
   </form>
 
