@@ -1,4 +1,6 @@
 ---
+outputfile: "index.html"
+
 name: "Birch Haven"
 fontUrl: "https://fonts.googleapis.com/css?family=Raleway:400,400i,700"
 
@@ -13,7 +15,7 @@ colors:
     The primary colour represents stability and depth. It symbolizes the trust, loyalty and confidence our company has to offer. Use it for heading 1 and heading 2.
 
   secondary: |
-    The secondary colour represents the happiness and wisdom our company has gave to our animals. This is meant to make our website pop. Use it for the logo, footer, and icons. Exclude the bone icon.
+    The secondary colour represents the passion Birch Haven has towards their dogs. It symbolizes love and adventure; two main dog characteristics. This is meant to make our website pop. Use it for the logo, footer, and icons.
 
   neutral: |
     The body copy colour will be a dark grey colour. Use for all of body copy, as well as heading 3, 4, 5, 6.

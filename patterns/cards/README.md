@@ -1,7 +1,7 @@
 ---
 basic-card:
   desc: |
-    The basic card should only be used for information about specific dogs. It must include a button becasue the entire card will never be clickable.
+    The basic card should only be used for information about specific dogs. It must include a button because the entire card will never be clickable.
   width: 400
 
 icon-card:
