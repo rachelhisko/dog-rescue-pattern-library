@@ -27,3 +27,7 @@
 .is-validated input:invalid + label + .error-message {
   display: block;
 }
+
+fieldset {
+  border: none;
+}
